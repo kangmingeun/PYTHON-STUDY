@@ -1,0 +1,15 @@
+,empno,ename,job,sal,comm,deptno
+0,7369,smith,clerk,800,0.0,20
+1,7499,allen,salesman,1600,300.0,30
+2,7521,ward,salesman,1250,500.0,30
+3,7566,jones,manager,2975,0.0,20
+4,7654,martin,salesman,1250,1400.0,30
+5,7698,blake,manager,2850,0.0,30
+6,7782,clark,manager,2450,0.0,10
+7,7788,scott,analyst,3000,0.0,20
+8,7839,king,president,5000,0.0,10
+9,7844,turner,salesman,1500,0.0,30
+10,7876,adams,clerk,1100,0.0,20
+11,7900,james,clerk,950,0.0,30
+12,7902,ford,analyst,3000,0.0,20
+13,7934,miller,clerk,1300,0.0,10

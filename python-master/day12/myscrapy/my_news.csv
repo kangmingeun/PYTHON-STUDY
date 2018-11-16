@@ -1,0 +1,1 @@
+1. naver.com 사이트에서 특정 정보(예, 블로그, 카페, 뉴스..) crawling2. scrapy 사용	- $ scrapy startproject mynaver	- $ cd mynaver	- $ scrapy genspider mybots [domain name]3. Item class 정의	- title	- tag	- timestamp4. Spider 파일 구현 (mybots)	- def parse() 함수 구현 5. settings.py	- ROBOTSTXT_OBEY 설정	- FEED 관련 설정6. scrapy crawl [bot의 이름] 
