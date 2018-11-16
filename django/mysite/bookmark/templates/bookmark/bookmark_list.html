@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title%}지역화폐{% endblock %}
+{% block content %}
+<div id='content'>
+    <h1>지역 화폐</h1>
+    <ul>
+        {% for bookmark in object_list %}
+            <li>{{ bookmark.url_category }} 
+                <a href="{% url 'bookmark:detail' bookmark.id %}">{{ bookmark.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}    

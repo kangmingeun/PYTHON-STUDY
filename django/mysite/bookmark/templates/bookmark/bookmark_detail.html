@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title%}Bookmark Detail{% endblock %}
+{% block content %}
+<div id='content'>
+    <h1>{{ object.title }}</h1>
+    <h3>{{ object.url_category }}</h3>
+
+    <a href='{{ object.url }}'>{{ object.url }}</a>
+</div>
+{% endblock %}
